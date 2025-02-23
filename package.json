@@ -1,0 +1,12 @@
+{
+  "name": "cardmarketchecker",
+  "version": "1.0.0",
+  "main": "getPrices.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "noPrice": "node getPrices.js 0.75 true"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

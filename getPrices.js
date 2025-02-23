@@ -9,6 +9,8 @@ let consolidatedData;
 
 try {
   if (!priceGuides || !products) {
+    console.error('You can download price_guide from https://www.cardmarket.com/en/Magic/Data/Price-Guide');
+    console.error('You can download product_singles from https://www.cardmarket.com/en/Magic/Data/Product-List');
     throw new Error('ERROR AT READING FILES: priceGuides or products is null');
   }
   cards = JSON.parse(fs.readFileSync('./input/cards.json'));
